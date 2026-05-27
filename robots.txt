@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /hiring-admin.html
+Disallow: /functions/
+Disallow: /api/
+
+Sitemap: https://www.dongshan.in/sitemap.xml

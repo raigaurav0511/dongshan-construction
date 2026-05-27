@@ -3,7 +3,76 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Dong Shan Construction Pvt Ltd | Professional Designs, Personal Touches</title>
+
+<!-- Primary SEO -->
+<title>Dong Shan Construction | Civil, Interior & MEP Contractor in Noida, India</title>
+<meta name="description" content="Authorised construction partner to Samsung, Hyundai, KIA & KB Kookmin Bank. Civil, interior fit-out, clean rooms & MEP across India. Est. 2019, Noida.">
+<meta name="keywords" content="construction company Noida, civil contractor India, interior fit-out, clean room contractor, MEP services, Samsung construction partner, Hyundai contractor, KIA contractor, gypsum work, modular wall systems, Dong Shan, DSC Construction">
+<meta name="author" content="Dong Shan Construction Pvt Ltd">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://www.dongshan.in/">
+<meta name="theme-color" content="#EA5501">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="/dsc-logo.png">
+<link rel="apple-touch-icon" href="/dsc-logo.png">
+
+<!-- Open Graph (Facebook, LinkedIn, WhatsApp previews) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_IN">
+<meta property="og:url" content="https://www.dongshan.in/">
+<meta property="og:title" content="Dong Shan Construction | Civil, Interior & MEP Contractor in Noida">
+<meta property="og:description" content="Authorised construction partner to Samsung, Hyundai, KIA & KB Kookmin Bank. Civil works, interior fit-out, clean rooms & MEP across India.">
+<meta property="og:image" content="https://www.dongshan.in/dsc-logo.png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="327">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Dong Shan Construction Logo">
+<meta property="og:site_name" content="Dong Shan Construction">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dong Shan Construction | Civil, Interior & MEP Contractor in Noida">
+<meta name="twitter:description" content="Authorised construction partner to Samsung, Hyundai, KIA & KB Kookmin Bank.">
+<meta name="twitter:image" content="https://www.dongshan.in/dsc-logo.png">
+
+<!-- Structured data: GeneralContractor for Google rich snippets -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GeneralContractor",
+  "name": "Dong Shan Construction Pvt Ltd",
+  "alternateName": "DSC Construction",
+  "url": "https://www.dongshan.in",
+  "logo": "https://www.dongshan.in/dsc-logo.png",
+  "image": "https://www.dongshan.in/dsc-logo.png",
+  "description": "Civil, interior, clean room and MEP construction partner to global corporations across India. Authorised partner of 14 leading construction material brands.",
+  "telephone": "+91-98216-27768",
+  "email": "info@dongshan.in",
+  "foundingDate": "2019",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "H-53, Cabin 2, MA9, SQL Coworking P Ltd, Ground Floor, Sector 63",
+    "addressLocality": "Noida",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "201301",
+    "addressCountry": "IN"
+  },
+  "areaServed": [
+    {"@type":"City","name":"Noida"},
+    {"@type":"City","name":"Mumbai"},
+    {"@type":"City","name":"Pune"},
+    {"@type":"City","name":"Bangalore"},
+    {"@type":"City","name":"Chennai"},
+    {"@type":"City","name":"Kolkata"},
+    {"@type":"City","name":"Hyderabad"}
+  ],
+  "knowsAbout": ["Civil Construction","Interior Fit-Out","Clean Room Construction","MEP Services","Modular Wall Systems","Gypsum Work"],
+  "award": "Samsung Safety Champion Award 2020",
+  "sameAs": ["https://www.facebook.com/groups/1104539763522222/"]
+}
+</script>
+
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 <style>
@@ -59,9 +128,13 @@ nav{position:fixed;top:0;left:0;width:100%;background:var(--white);z-index:1000;
 .hero-video-wrap{position:relative;border-radius:4px;overflow:hidden;box-shadow:0 32px 80px rgba(0,0,0,0.6);border:1px solid rgba(255,255,255,0.08)}
 .hero-video-wrap::before{content:'';position:absolute;inset:0;border:2px solid var(--orange);opacity:0.35;z-index:1;pointer-events:none}
 .hero-video-main{width:100%;height:100%;object-fit:cover;display:block}
+.hero-video-label{position:absolute;right:0;bottom:0;display:inline-flex;align-items:center;gap:10px;background:rgba(0,0,0,0.72);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff;padding:12px 20px;font-size:0.82rem;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;border-left:3px solid var(--orange);z-index:3;opacity:0;transform:translateY(8px);transition:opacity 0.5s ease,transform 0.5s ease;font-family:'Oswald','Noto Sans KR',sans-serif;pointer-events:none}
+.hero-video-label::before{content:'';width:6px;height:6px;background:var(--orange);border-radius:50%;box-shadow:0 0 0 0 rgba(234,85,1,0.6);animation:heroLabelDot 1.4s ease-out infinite}
+.hero-video-label.show{opacity:1;transform:translateY(0)}
+@keyframes heroLabelDot{0%{box-shadow:0 0 0 0 rgba(234,85,1,0.6)}100%{box-shadow:0 0 0 8px rgba(234,85,1,0)}}
 .hero-tag{font-size:0.75rem;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--orange);margin-bottom:20px;display:flex;align-items:center;gap:12px}
 .hero-tag::before{content:'';display:block;width:40px;height:2px;background:var(--orange)}
-.hero-content h1{font-size:clamp(2.6rem,5.5vw,4.8rem);font-weight:700;line-height:1.08;margin-bottom:24px;max-width:820px;letter-spacing:-1px}
+.hero-content h1{font-size:clamp(2.2rem,3.8vw,3.4rem);font-weight:700;line-height:1.12;margin-bottom:24px;max-width:820px;letter-spacing:-0.5px}
 .hero-content h1 span{color:var(--orange)}
 .hero-content p{font-size:1.05rem;color:var(--gray);max-width:520px;margin-bottom:40px;line-height:1.8}
 .hero-btns{display:flex;gap:14px;flex-wrap:wrap}
@@ -90,7 +163,7 @@ nav{position:fixed;top:0;left:0;width:100%;background:var(--white);z-index:1000;
 .about-img-wrap{position:relative;overflow:visible;margin-top:-60px}
 .about-img{width:100%;border-radius:2px;box-shadow:0 20px 60px rgba(0,0,0,0.15)}
 .about-video{width:100%;border-radius:2px;box-shadow:0 20px 60px rgba(0,0,0,0.15);display:block;object-fit:cover}
-.about-badge{position:absolute;bottom:-20px;left:-20px;background:var(--orange);color:var(--white);padding:22px 28px;font-size:1.6rem;font-weight:700;line-height:1}
+.about-badge{position:absolute;bottom:0;right:0;background:var(--orange);color:var(--white);padding:22px 28px;font-size:1.6rem;font-weight:700;line-height:1;z-index:2}
 .about-badge span{font-size:0.85rem;font-weight:400;display:block;margin-top:4px}
 .about-body{font-size:1rem;color:var(--gray);line-height:1.8;margin-bottom:18px}
 .about-pts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1300px;margin:40px auto 0}
@@ -103,8 +176,12 @@ nav{position:fixed;top:0;left:0;width:100%;background:var(--white);z-index:1000;
 #stats{background:linear-gradient(135deg,#c05a00 0%,var(--orange) 48%,#c05a00 100%);padding:80px 30px;position:relative;overflow:hidden}
 #stats::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(-45deg,transparent,transparent 50px,rgba(255,255,255,0.018) 50px,rgba(255,255,255,0.018) 51px);pointer-events:none}
 .stats-inner{max-width:1300px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:0;text-align:center;position:relative;z-index:1}
-.stats-item{color:var(--white);padding:20px 0;border-right:1px solid rgba(255,255,255,0.18)}
+.stats-item{color:var(--white);padding:20px 0;border-right:1px solid rgba(255,255,255,0.18);opacity:0;transform:translateY(24px);transition:opacity 0.7s ease,transform 0.7s ease}
 .stats-item:last-child{border-right:none}
+#stats.stats-revealed .stats-item{opacity:1;transform:translateY(0)}
+#stats.stats-revealed .stats-item:nth-child(2){transition-delay:0.12s}
+#stats.stats-revealed .stats-item:nth-child(3){transition-delay:0.24s}
+#stats.stats-revealed .stats-item:nth-child(4){transition-delay:0.36s}
 .stats-num{font-size:4rem;font-weight:700;line-height:1;letter-spacing:-2px;text-shadow:0 2px 20px rgba(0,0,0,0.2)}
 .stats-label{font-size:0.82rem;margin-top:10px;opacity:0.85;letter-spacing:1.5px;text-transform:uppercase}
 
@@ -114,24 +191,31 @@ nav{position:fixed;top:0;left:0;width:100%;background:var(--white);z-index:1000;
 .mission-header{text-align:center;margin-bottom:60px}
 .mission-header .sec-title{color:var(--darker)}
 .mission-header .sec-desc{color:var(--gray);margin:0 auto}
-.mv-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:32px}
-.mv-card{border-radius:2px;padding:44px 40px;position:relative;overflow:hidden;transition:transform 0.3s}
-.mv-card:hover{transform:translateY(-4px)}
-.mv-card-m{background:var(--light-bg);border:1px solid var(--border)}
-.mv-card-v{background:rgba(234,85,1,0.05);border:1px solid rgba(234,85,1,0.2)}
-.mv-card-bg{position:absolute;top:-10px;right:-10px;font-size:100px;opacity:0.04;pointer-events:none}
-.mv-pill{font-size:0.72rem;letter-spacing:3px;text-transform:uppercase;font-weight:600;margin-bottom:18px;display:inline-block;padding:5px 14px}
-.mv-pill-m{background:rgba(0,0,0,0.06);color:var(--gray)}
-.mv-pill-v{background:rgba(234,85,1,0.1);color:var(--orange)}
-.mv-divider{width:36px;height:2px;background:var(--orange);margin:14px 0}
-.mv-card h3{font-size:1.6rem;font-weight:700;color:var(--darker);margin-bottom:12px;line-height:1.2}
-.mv-card p{font-size:0.95rem;color:var(--gray);line-height:1.85;font-weight:300}
-.mv-values{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
-.mv-val{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05a00 100%);border:none;padding:20px 14px;text-align:center;transition:all 0.25s}
-.mv-val:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(234,85,1,0.4);filter:brightness(1.1)}
-.mv-val-icon{font-size:22px;margin-bottom:10px}
-.mv-val-title{font-size:0.82rem;font-weight:600;color:#fff;margin-bottom:4px}
-.mv-val-desc{font-size:0.74rem;color:rgba(255,255,255,0.85);line-height:1.5}
+#mission{background:var(--light-bg);padding:72px 30px;position:relative;overflow:hidden}
+#mission::before{content:'';position:absolute;top:-180px;right:-160px;width:480px;height:480px;background:radial-gradient(circle,rgba(234,85,1,0.10) 0%,transparent 62%);pointer-events:none}
+#mission .mission-inner{position:relative;z-index:1}
+#mission .mission-header{margin-bottom:40px}
+.mv-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:36px}
+.mv-card{position:relative;padding:32px 30px;background:#fff;border:1px solid var(--border);border-radius:6px;overflow:hidden;transition:all 0.35s cubic-bezier(0.4,0,0.2,1)}
+.mv-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--orange),#ff8240,var(--orange));transform:scaleX(0);transform-origin:left;transition:transform 0.45s ease}
+.mv-card:hover{border-color:rgba(234,85,1,0.4);transform:translateY(-4px);box-shadow:0 18px 44px rgba(0,0,0,0.08)}
+.mv-card:hover::before{transform:scaleX(1)}
+.mv-num{position:absolute;top:10px;right:22px;font-size:4.6rem;font-weight:700;color:rgba(234,85,1,0.07);line-height:1;letter-spacing:-2px;font-family:'Oswald',sans-serif;pointer-events:none}
+.mv-icon-wrap{width:54px;height:54px;background:linear-gradient(135deg,var(--orange) 0%,#d96e00 100%);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:18px;box-shadow:0 8px 22px rgba(234,85,1,0.28);position:relative;z-index:1}
+.mv-pill{font-size:0.68rem;letter-spacing:2.5px;text-transform:uppercase;font-weight:700;color:var(--orange);margin-bottom:10px;display:inline-block}
+.mv-card h3{font-size:clamp(1.25rem,2vw,1.55rem);font-weight:700;color:var(--darker);margin-bottom:12px;line-height:1.2;position:relative;z-index:1}
+.mv-card p{font-size:0.92rem;color:var(--gray);line-height:1.7;font-weight:400;position:relative;z-index:1}
+.mv-values{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.mv-val-col{position:relative;display:flex;flex-direction:column;gap:26px}
+.mv-val-col::before{content:'';position:absolute;left:22px;top:24px;bottom:24px;width:2px;background:linear-gradient(to bottom,var(--orange) 0%,var(--orange) 75%,rgba(234,85,1,0.25) 100%);z-index:0}
+.mv-val{position:relative;display:flex;gap:18px;align-items:flex-start;z-index:1;background:transparent;border:0;border-radius:0;padding:0;box-shadow:none;text-align:left;overflow:visible;transition:none}
+.mv-val:hover{background:transparent;transform:none;box-shadow:none;border:0}
+.mv-val::after{display:none}
+.mv-val-num{width:46px;height:46px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;flex-shrink:0;box-shadow:0 0 0 4px var(--light-bg),0 6px 16px rgba(234,85,1,0.28);font-family:'Oswald',sans-serif;letter-spacing:0.5px}
+.mv-val-body{padding-top:4px;flex:1;min-width:0}
+.mv-val-title{font-size:1rem;font-weight:700;color:var(--darker);margin-bottom:5px;letter-spacing:0.2px;display:flex;align-items:center;gap:8px}
+.mv-val-emoji{font-size:1.05rem}
+.mv-val-desc{font-size:0.86rem;color:var(--gray);line-height:1.65;font-weight:400}
 
 /* SERVICES */
 #services{padding:100px 30px;background:var(--white)}
@@ -153,12 +237,15 @@ nav{position:fixed;top:0;left:0;width:100%;background:var(--white);z-index:1000;
 .process-hdr{max-width:1300px;margin:auto;margin-bottom:56px}
 .process-hdr .sec-title{color:var(--darker)}
 .process-hdr .sec-desc{color:var(--gray)}
-.process-grid{max-width:1300px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.proc-card{padding:36px 28px;background:var(--light-bg);border:1px solid var(--border);border-top:3px solid var(--orange);transition:all 0.3s}
-.proc-card:hover{background:#fff;box-shadow:0 12px 36px rgba(0,0,0,0.08)}
-.proc-num{font-size:3rem;font-weight:700;color:rgba(234,85,1,0.2);line-height:1;margin-bottom:14px}
-.proc-title{font-size:1rem;font-weight:700;color:var(--darker);margin-bottom:10px}
-.proc-desc{font-size:0.88rem;color:var(--gray);line-height:1.75}
+.process-grid{max-width:1300px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.proc-col{position:relative;display:flex;flex-direction:column;gap:28px}
+.proc-col::before{content:'';position:absolute;left:22px;top:24px;bottom:24px;width:2px;background:linear-gradient(to bottom,var(--orange) 0%,var(--orange) 75%,rgba(234,85,1,0.25) 100%);z-index:0}
+.proc-card{position:relative;display:flex;gap:20px;align-items:flex-start;z-index:1;background:transparent;border:0;padding:0;transition:none}
+.proc-card:hover{background:transparent;box-shadow:none;transform:none;border-bottom-color:transparent}
+.proc-num{width:46px;height:46px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;flex-shrink:0;box-shadow:0 0 0 4px #fff,0 6px 16px rgba(234,85,1,0.28);font-family:'Oswald',sans-serif;letter-spacing:0.5px;margin:0;line-height:1}
+.proc-body{flex:1;min-width:0;padding-top:4px}
+.proc-title{font-size:1.05rem;font-weight:700;color:var(--darker);margin-bottom:8px;line-height:1.3}
+.proc-desc{font-size:0.92rem;color:var(--gray);line-height:1.75}
 
 /* PROJECTS */
 #projects{padding:100px 30px;background:var(--light-bg)}
@@ -180,6 +267,8 @@ nav{position:fixed;top:0;left:0;width:100%;background:var(--white);z-index:1000;
 
 /* PARTNERS & CLIENTS */
 #partners{padding:100px 30px;background:var(--white)}
+#clients{padding:100px 30px;background:var(--light-bg)}
+#clients .partners-inner{max-width:1300px;margin:auto;text-align:center}
 .partners-inner{max-width:1300px;margin:auto}
 .partners-panel{display:block}
 .clients-section-divider{border:none;border-top:1.5px solid var(--border);margin:48px 0 40px}
@@ -197,16 +286,21 @@ nav{position:fixed;top:0;left:0;width:100%;background:var(--white);z-index:1000;
 .client-logo-img{height:40px;width:auto;max-width:120px;object-fit:contain;display:block}
 
 /* AWARDS */
-#awards{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05a00 100%);padding:60px 30px}
+#awards{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05a00 100%);padding:72px 30px}
 .awards-inner{max-width:1300px;margin:auto}
-.awards-hdr{margin-bottom:28px}
+.awards-hdr{margin-bottom:36px}
 .awards-hdr .sec-title{color:var(--white)}
-.awards-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.award-card{background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);padding:22px 20px;text-align:center;transition:all 0.3s}
-.award-card:hover{background:rgba(255,255,255,0.14);border-color:rgba(255,255,255,0.3);transform:translateY(-4px);box-shadow:0 12px 36px rgba(0,0,0,0.25)}
-.aw-icon{font-size:1.8rem;margin-bottom:10px}
-.aw-title{font-size:0.88rem;font-weight:700;color:var(--white);margin-bottom:7px}
-.aw-desc{font-size:0.8rem;color:rgba(255,255,255,0.75);line-height:1.6}
+.awards-hdr .sec-tag{color:rgba(255,255,255,0.75)}
+.awards-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.award-card{background:#fff;border-radius:8px;overflow:hidden;text-align:left;transition:all 0.35s cubic-bezier(0.4,0,0.2,1);box-shadow:0 8px 28px rgba(0,0,0,0.18);display:flex;flex-direction:column}
+.award-card:hover{transform:translateY(-6px);box-shadow:0 22px 48px rgba(0,0,0,0.28)}
+.aw-img-wrap{position:relative;height:170px;overflow:hidden}
+.aw-img-wrap img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease}
+.award-card:hover .aw-img-wrap img{transform:scale(1.05)}
+.aw-icon{position:absolute;top:14px;left:14px;width:42px;height:42px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;box-shadow:0 4px 14px rgba(0,0,0,0.25);z-index:1}
+.aw-body{padding:22px 24px 26px}
+.aw-title{font-size:1.02rem;font-weight:700;color:var(--darker);margin-bottom:10px;line-height:1.3}
+.aw-desc{font-size:0.85rem;color:var(--gray);line-height:1.65}
 
 /* CERTIFICATES */
 #certificates{background:var(--light-bg);padding:100px 30px}
@@ -221,18 +315,25 @@ nav{position:fixed;top:0;left:0;width:100%;background:var(--white);z-index:1000;
 /* TEAM section removed — CSS cleaned up */
 
 /* GOALS */
-#goals{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05a00 100%);padding:40px 30px}
+#goals{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05a00 100%);padding:72px 30px}
 .goals-inner{max-width:1300px;margin:auto}
-.goals-hdr{margin-bottom:16px}
+.goals-hdr{margin-bottom:36px}
 .goals-hdr .sec-title{color:#fff}
-.goals-hdr .sec-tag{color:rgba(255,255,255,0.65)}
-.goals-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.goal-card{background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.14);border-top:3px solid var(--orange);padding:16px 16px;text-align:center;transition:all 0.3s}
-.goal-card:hover{background:rgba(255,255,255,0.13);transform:translateY(-3px);box-shadow:0 12px 32px rgba(0,0,0,0.3);border-top-color:#fff}
-.goal-icon{font-size:1.4rem;margin-bottom:6px;display:block}
-.goal-num{display:inline-block;background:var(--orange);color:#fff;font-size:0.6rem;font-weight:700;letter-spacing:1.5px;padding:2px 7px;margin-bottom:7px;font-family:'Oswald',sans-serif}
-.goal-title{font-size:0.82rem;font-weight:700;color:#fff;margin-bottom:5px;font-family:'Oswald',sans-serif;letter-spacing:0.3px}
-.goal-desc{font-size:0.75rem;color:rgba(255,255,255,0.77);line-height:1.55}
+.goals-hdr .sec-tag{color:rgba(255,255,255,0.75)}
+.goals-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.goal-card{background:#fff;border-radius:8px;overflow:hidden;text-align:left;transition:all 0.35s cubic-bezier(0.4,0,0.2,1);box-shadow:0 8px 28px rgba(0,0,0,0.18);display:flex;flex-direction:column;position:relative}
+.goal-card:hover{transform:translateY(-6px);box-shadow:0 22px 48px rgba(0,0,0,0.28)}
+.goal-img-wrap{position:relative;height:150px;overflow:hidden}
+.goal-img-wrap img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease}
+.goal-card:hover .goal-img-wrap img{transform:scale(1.05)}
+.goal-num{position:absolute;top:14px;left:14px;background:var(--orange);color:#fff;font-size:0.72rem;font-weight:700;letter-spacing:1.5px;padding:4px 10px;font-family:'Oswald',sans-serif;border-radius:3px;z-index:1}
+.goal-icon{position:absolute;top:14px;right:14px;width:38px;height:38px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.05rem;box-shadow:0 3px 10px rgba(0,0,0,0.2);z-index:1}
+.goal-body{padding:20px 22px 24px}
+.goal-title{font-size:0.98rem;font-weight:700;color:var(--darker);margin-bottom:8px;letter-spacing:0.2px;line-height:1.3}
+.goal-desc{font-size:0.82rem;color:var(--gray);line-height:1.65}
+.goal-india-wrap{background:linear-gradient(135deg,#fff4e8 0%,#ffe0c2 100%);display:flex;align-items:center;justify-content:center;padding:6px}
+.india-svg{height:100%;max-height:138px;width:auto;display:block}
+.goal-card:hover .india-svg{transform:none}
 
 /* HIRING */
 #hiring{background:var(--light-bg);padding:100px 30px}
@@ -261,7 +362,30 @@ nav{position:fixed;top:0;left:0;width:100%;background:var(--white);z-index:1000;
 #contact{padding:100px 30px;background:var(--white)}
 .contact-inner{max-width:1300px;margin:auto;display:grid;grid-template-columns:1fr 1.3fr;gap:80px;align-items:center}
 .contact-info-desc{font-size:1rem;color:var(--gray);line-height:1.8;margin-bottom:32px}
-.c-item{display:flex;gap:16px;align-items:flex-start;margin-bottom:22px}
+.c-item{display:flex;gap:16px;align-items:flex-start;margin-bottom:22px;min-width:0}
+.c-item .c-value{word-break:break-word}
+.c-pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.c-pair .c-item{margin-bottom:22px}
+.social-rail{position:fixed;right:18px;top:50%;transform:translateY(-50%);z-index:998;display:flex;flex-direction:column;gap:14px}
+.social-rail a{position:relative;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.05rem;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,0.18);transition:transform 0.22s ease,box-shadow 0.22s ease}
+.social-rail a::after{content:'';position:absolute;inset:0;border-radius:50%;border:2px solid currentColor;color:inherit;opacity:0;animation:srRing 2.4s ease-out infinite;pointer-events:none}
+.social-rail a:nth-child(1)::after{animation-delay:0s;color:#25D366}
+.social-rail a:nth-child(2)::after{animation-delay:0.6s;color:#0A66C2}
+.social-rail a:nth-child(3)::after{animation-delay:1.2s;color:#d6249f}
+.social-rail a:nth-child(4)::after{animation-delay:1.8s;color:#1877F2}
+@keyframes srRing{0%{transform:scale(1);opacity:0.55}80%{opacity:0}100%{transform:scale(1.65);opacity:0}}
+.social-rail a i{display:inline-block;animation:srBob 2.2s ease-in-out infinite}
+.social-rail a:nth-child(1) i{animation-delay:0s}
+.social-rail a:nth-child(2) i{animation-delay:0.22s}
+.social-rail a:nth-child(3) i{animation-delay:0.44s}
+.social-rail a:nth-child(4) i{animation-delay:0.66s}
+@keyframes srBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.social-rail a:hover{transform:scale(1.18) translateX(-4px);box-shadow:0 12px 28px rgba(0,0,0,0.32)}
+.social-rail a:hover i{animation-duration:0.6s}
+.social-rail .sr-wa{background:#25D366}
+.social-rail .sr-li{background:#0A66C2}
+.social-rail .sr-ig{background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fd5949 45%,#d6249f 60%,#285AEB 90%)}
+.social-rail .sr-fb{background:#1877F2}
 .c-icon{width:44px;height:44px;flex-shrink:0;background:var(--orange);display:flex;align-items:center;justify-content:center;color:var(--white);font-size:1rem}
 .c-label{font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--darker);margin-bottom:3px}
 .c-value{font-size:0.92rem;color:var(--gray);line-height:1.55}
@@ -303,8 +427,7 @@ footer{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05
 
 /* RESPONSIVE */
 @media(max-width:1024px){
-  .svc-grid,.proj-grid,.awards-grid,.process-grid{grid-template-columns:1fr 1fr}
-  .mv-values{grid-template-columns:repeat(3,1fr)}
+  .svc-grid,.proj-grid,.awards-grid{grid-template-columns:1fr 1fr}
   .stats-inner{grid-template-columns:1fr 1fr;gap:0}
   .stats-item:nth-child(2){border-right:none}
   .stats-item:nth-child(3){border-top:1px solid rgba(255,255,255,0.18)}
@@ -326,7 +449,7 @@ footer{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05
   .nav-inner{padding:10px 14px;flex-wrap:nowrap;gap:10px}
   .hamburger{display:flex;order:-1;flex-shrink:0;padding:6px}
   .logo-wrap{flex:1;flex-direction:row;align-items:center;justify-content:center;gap:6px;margin:0;min-width:0}
-  .logo-wrap img{height:44px!important;width:auto!important;max-width:120px!important}
+  .logo-wrap img{height:60px!important;width:auto!important;max-width:160px!important}
   .nav-links{display:none!important}
   #nav-lang-sw{display:flex!important;order:2;flex-shrink:0;margin-left:0}
   .mobile-menu{display:none}
@@ -338,14 +461,14 @@ footer{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05
   .hero-inner{grid-template-columns:1fr;gap:36px}
   .hero-video-wrap{order:-1;height:240px;width:100%}
   .hero-video-main{object-position:top center}
-  .logo-wrap img{height:44px!important;width:auto!important;max-width:100px!important}
+  .logo-wrap img{height:54px!important;width:auto!important;max-width:140px!important}
 
   /* HERO */
   .hero-content{padding:0 18px}
   .hero-content h1{font-size:clamp(1.9rem,7vw,2.8rem);letter-spacing:-0.5px}
   .hero-content p{font-size:0.95rem;margin-bottom:28px}
-  .hero-btns{gap:10px}
-  .btn-primary,.btn-outline{padding:13px 26px;font-size:0.88rem}
+  .hero-btns{gap:10px;flex-wrap:nowrap}
+  .hero-btns .btn-primary,.hero-btns .btn-outline{flex:1 1 0;padding:13px 14px;font-size:0.85rem;text-align:center;white-space:nowrap}
   .hero-stats{flex-wrap:wrap;gap:0;margin-top:44px;padding-top:32px;display:grid;grid-template-columns:1fr 1fr}
   .hero-stats .h-stat{padding:16px 0;border-right:none;border-bottom:1px solid rgba(0,0,0,0.10)}
   .hero-stats .h-stat:nth-child(1),.hero-stats .h-stat:nth-child(2){border-bottom:1px solid rgba(0,0,0,0.10)}
@@ -356,9 +479,12 @@ footer{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05
   .h-stat-label{font-size:0.72rem}
 
   /* ABOUT */
-  .about-grid,.contact-inner,.mv-grid,.goals-grid,.cf-row,.history-grid{grid-template-columns:1fr!important;gap:32px!important}
+  .about-grid,.contact-inner,.mv-grid,.cf-row,.history-grid,.c-pair{grid-template-columns:1fr!important;gap:32px!important}
+  .social-rail{right:10px;gap:10px}
+  .social-rail a{width:36px;height:36px;font-size:0.9rem}
   .about-pts{grid-template-columns:1fr!important;margin-top:24px}
-  .about-badge{left:0;bottom:-16px;position:relative;bottom:auto;left:auto;margin-top:16px;display:inline-block}
+  .about-badge{position:relative;bottom:auto;left:auto;margin-top:16px;display:inline-block;padding:12px 18px;font-size:1.15rem}
+  .about-badge span{font-size:0.7rem;margin-top:2px}
   .about-img-wrap{margin-bottom:28px;overflow:hidden}
 
   /* SERVICE IMG fix */
@@ -370,11 +496,23 @@ footer{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05
   .stats-item{border-right:none;border-bottom:1px solid rgba(255,255,255,0.15);padding:24px 10px}
   .stats-item:nth-child(odd){border-right:1px solid rgba(255,255,255,0.15)}
   .stats-item:nth-child(3),.stats-item:nth-child(4){border-bottom:none}
-  .stats-num{font-size:2.8rem}
+  .stats-num{font-size:1.9rem;letter-spacing:-1px}
+  .stats-label{font-size:0.68rem;margin-top:6px;letter-spacing:1px}
+  #stats{padding:48px 18px}
+  .stats-grid{gap:0}
 
   /* MISSION VALUES */
-  .mv-values{grid-template-columns:repeat(2,1fr)}
-  .mv-card{padding:28px 22px}
+  .mv-values{grid-template-columns:1fr;gap:24px}
+  .mv-card{padding:24px 20px}
+  .mv-num{font-size:3rem;top:8px;right:14px}
+  .mv-icon-wrap{width:46px;height:46px;font-size:1.3rem;margin-bottom:14px}
+  .mv-val-col{gap:22px}
+  .mv-val-num{width:42px;height:42px;font-size:0.9rem}
+  .mv-val-col::before{left:20px}
+  .mv-val-title{font-size:0.95rem}
+  .mv-val-desc{font-size:0.82rem;line-height:1.6}
+  #mission{padding:52px 18px}
+  #mission .mission-header{margin-bottom:28px}
 
   /* SERVICES */
   .svc-grid{grid-template-columns:1fr}
@@ -395,8 +533,21 @@ footer{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05
   .clients-grid{gap:28px 36px}
 
   /* AWARDS PROCESS CERTS */
-  .awards-grid,.process-grid{grid-template-columns:1fr}
+  .awards-grid{grid-template-columns:1fr}
+  .process-grid{grid-template-columns:1fr;gap:24px}
+  .proc-col{gap:22px}
+  .proc-col::before{left:20px}
+  .proc-num{width:42px;height:42px;font-size:0.9rem}
+  .proc-title{font-size:1rem}
+  .proc-desc{font-size:0.86rem}
+  .goals-grid{grid-template-columns:1fr 1fr;gap:14px}
   #awards{padding:50px 18px}
+  #goals{padding:50px 18px}
+  .aw-img-wrap{height:160px}
+  .goal-img-wrap{height:120px}
+  .goal-body{padding:14px 14px 18px}
+  .goal-title{font-size:0.88rem}
+  .goal-desc{font-size:0.74rem;line-height:1.55}
   .awards-hdr{margin-bottom:24px}
   .award-card{padding:20px 16px}
   .aw-icon{font-size:1.6rem;margin-bottom:10px}
@@ -417,9 +568,9 @@ footer{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05
   .sec-title{font-size:1.6rem}
   .partners-grid{grid-template-columns:repeat(2,1fr);gap:20px 8px}
   .partner-logo{width:90px;height:36px}
-  .mv-values{grid-template-columns:repeat(2,1fr)}
   .proj-grid{grid-template-columns:1fr}
-  .stats-num{font-size:2.4rem}
+  .stats-num{font-size:1.7rem}
+  .stats-label{font-size:0.62rem}
   .contact-inner{gap:32px}
 }
 
@@ -451,10 +602,14 @@ footer{background:linear-gradient(135deg,#c05a00 0%,#d96e00 40%,#EA5501 72%,#c05
 
 /* History timeline */
 .hist-item:hover{transform:none}
+.hist-journey{position:relative;display:flex;flex-direction:column;gap:28px}
+.hist-journey::before{content:'';position:absolute;left:22px;top:24px;bottom:24px;width:2px;background:linear-gradient(to bottom,var(--orange) 0%,var(--orange) 70%,rgba(234,85,1,0.25) 100%);z-index:0}
+.hist-step{position:relative;display:flex;gap:18px;align-items:flex-start;z-index:1}
+.hist-step-num{width:46px;height:46px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;flex-shrink:0;box-shadow:0 0 0 4px #fff,0 6px 16px rgba(234,85,1,0.28)}
+.hist-step-body .htl-title{font-size:0.98rem;font-weight:700;color:var(--darker);margin-bottom:4px}
+.hist-step-body .htl-desc{font-size:0.9rem;color:var(--gray);line-height:1.65}
 
 /* Process cards */
-.proc-card{transition:all 0.3s;border-bottom:3px solid transparent}
-.proc-card:hover{border-bottom-color:var(--orange);transform:translateY(-4px);box-shadow:0 12px 36px rgba(0,0,0,0.08)}
 
 /* Client tiles */
 .client-tile:hover{box-shadow:0 8px 28px rgba(234,85,1,0.10)}
@@ -479,17 +634,26 @@ img{transition:opacity 0.4s ease}
 </head>
 <body>
 
+<!-- STICKY SOCIAL RAIL -->
+<div class="social-rail" aria-label="Social links">
+  <a href="https://wa.me/919821627768?text=Hi%20Dong%20Shan%20Construction%2C%20I'd%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" class="sr-wa" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  <a href="#" class="sr-li" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  <a href="#" class="sr-ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.facebook.com/groups/1104539763522222/" target="_blank" rel="noopener" class="sr-fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+</div>
+
 <!-- NAV -->
 <nav id="mainNav">
   <div class="nav-inner">
     <a href="#hero" class="logo-wrap">
-      <img src="dongshan-logo.jpg" alt="Dong Shan Construction" style="height:80px;width:auto;display:block;object-fit:contain">
+      <img src="dsc-logo.png" alt="Dong Shan Construction" style="height:120px;width:auto;display:block;object-fit:contain">
     </a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#partners">Partners</a></li>
+      <li><a href="#clients">Clients</a></li>
       <li><a href="#hiring">Hiring</a></li>
       <li><a href="#contact" class="nav-cta"><i class="fas fa-phone-alt" style="margin-right:7px;font-size:0.8em"></i>Talk to Us</a></li>
     </ul>
@@ -509,6 +673,7 @@ img{transition:opacity 0.4s ease}
       <li><a href="#services" onclick="toggleMenu()">Services</a></li>
       <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
       <li><a href="#partners" onclick="toggleMenu()">Partners</a></li>
+      <li><a href="#clients" onclick="toggleMenu()">Clients</a></li>
       <li><a href="#hiring" onclick="toggleMenu()">Hiring</a></li>
       <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
     </ul>
@@ -525,18 +690,17 @@ img{transition:opacity 0.4s ease}
     <!-- LEFT: Content -->
     <div class="hero-content">
       <div class="hero-tag">Professional Designs, Personal Touches</div>
-      <h1>Building India's Future<br>with <span>Precision & Care</span></h1>
+      <h1>Building India's<br>Future with<br><span>Precision & Care</span></h1>
       <p>Infrastructural solutions in Civil, Electrical, Mechanical, Modular Wall & Systems, Clean Room, and Interior Work. Trusted by Samsung, Hyundai, KIA, and more across India.</p>
       <div class="hero-btns">
         <a href="#projects" class="btn-primary">Explore Our Work</a>
         <a href="#contact" class="btn-outline"><i class="fas fa-phone-alt" style="margin-right:8px;font-size:0.85em"></i>Talk to Us</a>
       </div>
     </div>
-    <!-- RIGHT: Video -->
+    <!-- RIGHT: Video playlist (office → rebar, looping) -->
     <div class="hero-video-wrap">
-      <video class="hero-video-main" autoplay muted loop playsinline>
-        <source src="hero-video.mp4" type="video/mp4">
-      </video>
+      <video class="hero-video-main" autoplay muted playsinline preload="metadata" data-playlist="hero-video-office.mp4,hero-video.mp4" data-labels="Interior Design,Civil Construction"></video>
+      <div class="hero-video-label" id="heroLabel"></div>
     </div>
   </div>
 </section>
@@ -545,8 +709,8 @@ img{transition:opacity 0.4s ease}
 <section id="about">
   <div class="about-grid">
     <div class="about-img-wrap">
-      <video class="about-video" autoplay muted loop playsinline>
-        <source src="hero-video.mp4" type="video/mp4">
+      <video class="about-video" autoplay muted loop playsinline preload="metadata" onloadedmetadata="this.playbackRate=0.6" onplay="this.playbackRate=0.6">
+        <source src="about-video.mp4" type="video/mp4">
       </video>
       <div class="about-badge">2019<span>Established in Noida</span></div>
     </div>
@@ -578,10 +742,10 @@ img{transition:opacity 0.4s ease}
 <!-- STATS BAND -->
 <section id="stats">
   <div class="stats-inner">
-    <div class="stats-item"><div class="stats-num">2019</div><div class="stats-label">Established in India</div></div>
-    <div class="stats-item"><div class="stats-num">7+</div><div class="stats-label">Major Projects Delivered</div></div>
-    <div class="stats-item"><div class="stats-num">14</div><div class="stats-label">Brand Partnerships</div></div>
-    <div class="stats-item"><div class="stats-num">100%</div><div class="stats-label">Client Satisfaction</div></div>
+    <div class="stats-item"><div class="stats-num" data-target="2019" data-start="2000">2000</div><div class="stats-label">Established in India</div></div>
+    <div class="stats-item"><div class="stats-num" data-target="7" data-suffix="+">0</div><div class="stats-label">Major Projects Delivered</div></div>
+    <div class="stats-item"><div class="stats-num" data-target="14">0</div><div class="stats-label">Brand Partnerships</div></div>
+    <div class="stats-item"><div class="stats-num" data-target="100" data-suffix="%">0</div><div class="stats-label">Client Satisfaction</div></div>
   </div>
 </section>
 
@@ -591,12 +755,7 @@ img{transition:opacity 0.4s ease}
     <div>
       <p class="sec-tag">Our Story</p>
       <h2 class="sec-title">History & Origins</h2>
-      <p class="about-body" style="margin-bottom:16px">DSC Construction Co., Ltd. originated as a Korean construction company. Simultaneously established as an interior company, we gained recognition through interior design and construction projects. Samsung then supported our company's registration in India.</p>
-      <div style="background:var(--light-bg);border-left:3px solid var(--orange);padding:20px 24px;margin-bottom:20px">
-        <div class="hist-parent-label" style="font-size:0.72rem;letter-spacing:2.5px;text-transform:uppercase;color:var(--gray);margin-bottom:6px;font-weight:600">Parent Company</div>
-        <div style="font-size:1rem;font-weight:700;color:var(--darker);margin-bottom:3px">D.S.C. Construction Co. Ltd.</div>
-        <div class="hist-parent-sub" style="font-size:0.85rem;color:var(--gray)">South Korea (Parent Company)</div>
-      </div>
+      <p class="about-body" style="margin-bottom:24px">DSC Construction Co., Ltd. originated as a Korean construction company. Simultaneously established as an interior company, we gained recognition through interior design and construction projects. Samsung then supported our company's registration in India.</p>
       <div style="background:var(--orange);color:#fff;padding:20px 24px;display:flex;gap:14px;align-items:flex-start">
         <div style="font-size:1.6rem;flex-shrink:0">🥇</div>
         <div>
@@ -606,22 +765,22 @@ img{transition:opacity 0.4s ease}
       </div>
     </div>
     <div>
-      <div style="display:flex;flex-direction:column;gap:22px">
-        <div style="display:flex;gap:18px;align-items:flex-start">
-          <div style="width:46px;height:46px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;flex-shrink:0">01</div>
-          <div><div class="htl-title" style="font-size:0.95rem;font-weight:700;color:var(--darker);margin-bottom:4px">Established 2019</div><div class="htl-desc" style="font-size:0.88rem;color:var(--gray);line-height:1.65">Incorporated as Dong Shan Construction Private Limited in Noida, Uttar Pradesh, India.</div></div>
+      <div class="hist-journey">
+        <div class="hist-step">
+          <div class="hist-step-num">01</div>
+          <div class="hist-step-body"><div class="htl-title">Established 2019</div><div class="htl-desc">Incorporated as Dong Shan Construction Private Limited in Noida, Uttar Pradesh, India.</div></div>
         </div>
-        <div style="display:flex;gap:18px;align-items:flex-start">
-          <div style="width:46px;height:46px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;flex-shrink:0">02</div>
-          <div><div class="htl-title" style="font-size:0.95rem;font-weight:700;color:var(--darker);margin-bottom:4px">Steady Growth</div><div class="htl-desc" style="font-size:0.88rem;color:var(--gray);line-height:1.65">Expanded across India — Noida, Gurgaon, Pune, Kolkata — serving Samsung, Hyundai, KIA, KB Kookmin Bank, and Paracom India.</div></div>
+        <div class="hist-step">
+          <div class="hist-step-num">02</div>
+          <div class="hist-step-body"><div class="htl-title">Steady Growth</div><div class="htl-desc">Expanded across India — Noida, Gurgaon, Pune, Kolkata — serving Samsung, Hyundai, KIA, KB Kookmin Bank, and Paracom India.</div></div>
         </div>
-        <div style="display:flex;gap:18px;align-items:flex-start">
-          <div style="width:46px;height:46px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;flex-shrink:0">03</div>
-          <div><div class="htl-title" style="font-size:0.95rem;font-weight:700;color:var(--darker);margin-bottom:4px">Client-Centric Approach</div><div class="htl-desc" style="font-size:0.88rem;color:var(--gray);line-height:1.65">Quality, client satisfaction, and cost-effectiveness at the core. We prioritise efficiency, innovation, and continuous improvement.</div></div>
+        <div class="hist-step">
+          <div class="hist-step-num">03</div>
+          <div class="hist-step-body"><div class="htl-title">Client-Centric Approach</div><div class="htl-desc">Quality, client satisfaction, and cost-effectiveness at the core. We prioritise efficiency, innovation, and continuous improvement.</div></div>
         </div>
-        <div style="display:flex;gap:18px;align-items:flex-start">
-          <div style="width:46px;height:46px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;flex-shrink:0">04</div>
-          <div><div class="htl-title" style="font-size:0.95rem;font-weight:700;color:var(--darker);margin-bottom:4px">Certified & Compliant</div><div class="htl-desc" style="font-size:0.88rem;color:var(--gray);line-height:1.65">MSME Registered enterprise. GST registered in Uttar Pradesh and Maharashtra.</div></div>
+        <div class="hist-step">
+          <div class="hist-step-num">04</div>
+          <div class="hist-step-body"><div class="htl-title">Certified & Compliant</div><div class="htl-desc">MSME Registered enterprise. GST registered in Uttar Pradesh and Maharashtra.</div></div>
         </div>
       </div>
     </div>
@@ -638,27 +797,31 @@ img{transition:opacity 0.4s ease}
     </div>
     <div class="mv-grid">
       <div class="mv-card mv-card-m">
-        <div class="mv-card-bg">🎯</div>
-        <div class="mv-pill mv-pill-m">🎯 Our Mission</div>
+        <div class="mv-num">01</div>
+        <div class="mv-icon-wrap">🎯</div>
+        <div class="mv-pill">Our Mission</div>
         <h3>Empowering Through Excellence</h3>
-        <div class="mv-divider"></div>
         <p>To empower individuals and businesses through innovative technologies and exceptional services, driving positive change and fostering sustainable growth in every project we undertake.</p>
       </div>
       <div class="mv-card mv-card-v">
-        <div class="mv-card-bg">🔭</div>
-        <div class="mv-pill mv-pill-v">🔭 Our Vision</div>
+        <div class="mv-num">02</div>
+        <div class="mv-icon-wrap">🔭</div>
+        <div class="mv-pill">Our Vision</div>
         <h3>Making Architecture Come Alive</h3>
-        <div class="mv-divider"></div>
         <p>Dong Shan Construction works to make the imagination of architecture real. We are recognised for our commitment to excellence, customer satisfaction, and making a meaningful impact through our work profile.</p>
       </div>
     </div>
     <div class="mv-values">
-      <div class="mv-val"><div class="mv-val-icon">💎</div><div class="mv-val-title">Quality First</div><div class="mv-val-desc">Uncompromising quality on every sq. ft.</div></div>
-      <div class="mv-val"><div class="mv-val-icon">🤝</div><div class="mv-val-title">Client-Centric</div><div class="mv-val-desc">Your goals drive every site decision</div></div>
-      <div class="mv-val"><div class="mv-val-icon">🚀</div><div class="mv-val-title">Innovation</div><div class="mv-val-desc">Modern methods on every project</div></div>
-      <div class="mv-val"><div class="mv-val-icon">🛡️</div><div class="mv-val-title">Safety First</div><div class="mv-val-desc">Samsung Safety Champion — zero-compromise</div></div>
-      <div class="mv-val"><div class="mv-val-icon">🌱</div><div class="mv-val-title">Sustainability</div><div class="mv-val-desc">Eco-responsible from plan to handover</div></div>
-      <div class="mv-val"><div class="mv-val-icon">⏱️</div><div class="mv-val-title">On-Time Delivery</div><div class="mv-val-desc">Proven deadline-driven execution</div></div>
+      <div class="mv-val-col">
+        <div class="mv-val"><div class="mv-val-num">01</div><div class="mv-val-body"><div class="mv-val-title"><span class="mv-val-emoji">💎</span>Quality First</div><div class="mv-val-desc">Uncompromising quality on every sq. ft.</div></div></div>
+        <div class="mv-val"><div class="mv-val-num">02</div><div class="mv-val-body"><div class="mv-val-title"><span class="mv-val-emoji">🤝</span>Client-Centric</div><div class="mv-val-desc">Your goals drive every site decision</div></div></div>
+        <div class="mv-val"><div class="mv-val-num">03</div><div class="mv-val-body"><div class="mv-val-title"><span class="mv-val-emoji">🚀</span>Innovation</div><div class="mv-val-desc">Modern methods on every project</div></div></div>
+      </div>
+      <div class="mv-val-col">
+        <div class="mv-val"><div class="mv-val-num">04</div><div class="mv-val-body"><div class="mv-val-title"><span class="mv-val-emoji">🛡️</span>Safety First</div><div class="mv-val-desc">Samsung Safety Champion — zero-compromise</div></div></div>
+        <div class="mv-val"><div class="mv-val-num">05</div><div class="mv-val-body"><div class="mv-val-title"><span class="mv-val-emoji">🌱</span>Sustainability</div><div class="mv-val-desc">Eco-responsible from plan to handover</div></div></div>
+        <div class="mv-val"><div class="mv-val-num">06</div><div class="mv-val-body"><div class="mv-val-title"><span class="mv-val-emoji">⏱️</span>On-Time Delivery</div><div class="mv-val-desc">Proven deadline-driven execution</div></div></div>
+      </div>
     </div>
   </div>
 </section>
@@ -672,42 +835,42 @@ img{transition:opacity 0.4s ease}
   </div>
   <div class="svc-grid">
     <div class="svc-card">
-      <img class="svc-img" src="https://images.unsplash.com/photo-1590247813693-5541d1c609fd?w=600&q=80" alt="Civil Construction">
+      <img class="svc-img" loading="lazy" src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80" alt="Civil Construction">
       <div class="svc-num">01 — Civil</div>
       <h3>Civil Construction</h3>
       <p>Full civil works including brick work, plaster, structural gypsum framing, epoxy flooring, self-levelling, waterproofing, and complete site execution.</p>
       <ul class="svc-features"><li>Gypsum structure & framing</li><li>Epoxy & conductive flooring</li><li>Self-levelling & waterproofing</li><li>Brick work & plaster</li></ul>
     </div>
     <div class="svc-card">
-      <img class="svc-img" src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&q=80" alt="Interior Fit-Out">
+      <img class="svc-img" loading="lazy" src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&q=80" alt="Interior Fit-Out">
       <div class="svc-num">02 — Interior</div>
       <h3>Interior Fit-Out</h3>
       <p>Premium interior solutions — gypsum boards (normal, fire-rated, CRC), false ceilings, LVT/tile flooring, glass partitions, joinery, putty, sanding, and paint.</p>
       <ul class="svc-features"><li>Normal, Fire-Rated & CRC boards</li><li>Grid & gypsum ceilings</li><li>Floor, wall & LVT tile</li><li>Putty, sanding & texture paint</li></ul>
     </div>
     <div class="svc-card">
-      <img class="svc-img" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Modular Wall & Systems">
+      <img class="svc-img" loading="lazy" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Modular Wall & Systems">
       <div class="svc-num">03 — Modular</div>
       <h3>Modular Wall & Systems</h3>
       <p>Modular wall systems, toilet cubicles (Merino/Greenlam), rolling/auto shutters, glass doors, fire-rated doors, curtain boxes, and panel wall installations.</p>
       <ul class="svc-features"><li>Glass doors & partitions</li><li>Fire-rated & double doors</li><li>Rolling & auto shutters</li><li>Toilet cubicles & dock levellers</li></ul>
     </div>
     <div class="svc-card">
-      <img class="svc-img" src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80" alt="Clean Room Works">
+      <img class="svc-img" loading="lazy" src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80" alt="Clean Room Works">
       <div class="svc-num">04 — Clean Room</div>
       <h3>Clean Room Works</h3>
       <p>Specialised clean room construction for high-precision environments — aluminium profile, toughened glass, epoxy walls and ceilings, and conductive tile flooring.</p>
       <ul class="svc-features"><li>Clean room wall & ceiling epoxy</li><li>Aluminium profile & glass work</li><li>Conductive tile flooring</li><li>Stair protectors & non-slip tape</li></ul>
     </div>
     <div class="svc-card">
-      <img class="svc-img" src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80" alt="MEP Services">
+      <img class="svc-img" loading="lazy" src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80" alt="MEP Services">
       <div class="svc-num">05 — MEP</div>
       <h3>MEP Services</h3>
       <p>Mechanical, Electrical, and Plumbing services including HVAC, electrical work, and complete MEP integration for industrial and commercial projects.</p>
       <ul class="svc-features"><li>HVAC systems</li><li>Electrical installation & wiring</li><li>Plumbing & sanitary</li><li>AC & ventilation integration</li></ul>
     </div>
     <div class="svc-card">
-      <img class="svc-img" src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=600&q=80" alt="HSE & Safety Compliance">
+      <img class="svc-img" loading="lazy" src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=600&q=80" alt="HSE & Safety Compliance">
       <div class="svc-num">06 — HSE</div>
       <h3>HSE & Safety Compliance</h3>
       <p>Rigorous Health, Safety & Environment standards on every site. Safety assessment, PPE compliance, and certified Safety First culture — Samsung Safety Champion 2020.</p>
@@ -721,12 +884,19 @@ img{transition:opacity 0.4s ease}
   <div class="process-hdr">
     <p class="sec-tag">How We Work</p>
     <h2 class="sec-title">Our Process</h2>
-    <p class="sec-desc">Three core principles guide every project from inception to handover.</p>
+    <p class="sec-desc">Six core principles guide every project from inception to handover.</p>
   </div>
   <div class="process-grid">
-    <div class="proc-card"><div class="proc-num">01</div><div class="proc-title">Quality & Client Satisfaction</div><div class="proc-desc">High-quality products and services, client satisfaction, and cost-effectiveness are at the core of our business process. We never compromise on delivery.</div></div>
-    <div class="proc-card"><div class="proc-num">02</div><div class="proc-title">Efficiency & Innovation</div><div class="proc-desc">We prioritise efficiency, innovation, and continuous improvement to stay competitive in the industry. Every project teaches us something new.</div></div>
-    <div class="proc-card"><div class="proc-num">03</div><div class="proc-title">Sustainability & Responsibility</div><div class="proc-desc">Our commitment to sustainability and social responsibility guides our business decisions and site practices — from waste management to HSE compliance.</div></div>
+    <div class="proc-col">
+      <div class="proc-card"><div class="proc-num">01</div><div class="proc-body"><div class="proc-title">Quality & Client Satisfaction</div><div class="proc-desc">High-quality products and services, client satisfaction, and cost-effectiveness are at the core of our business process. We never compromise on delivery.</div></div></div>
+      <div class="proc-card"><div class="proc-num">02</div><div class="proc-body"><div class="proc-title">Efficiency & Innovation</div><div class="proc-desc">We prioritise efficiency, innovation, and continuous improvement to stay competitive in the industry. Every project teaches us something new.</div></div></div>
+      <div class="proc-card"><div class="proc-num">03</div><div class="proc-body"><div class="proc-title">Sustainability & Responsibility</div><div class="proc-desc">Our commitment to sustainability and social responsibility guides our business decisions and site practices — from waste management to HSE compliance.</div></div></div>
+    </div>
+    <div class="proc-col">
+      <div class="proc-card"><div class="proc-num">04</div><div class="proc-body"><div class="proc-title">Safety-First Execution</div><div class="proc-desc">A Samsung Safety Champion culture on every site — daily toolbox talks, mandatory PPE, and zero-compromise on accident prevention from groundbreaking to handover.</div></div></div>
+      <div class="proc-card"><div class="proc-num">05</div><div class="proc-body"><div class="proc-title">Transparent Communication</div><div class="proc-desc">Clear timelines, weekly progress reports, and a single point of contact for every project — so clients always know exactly where their build stands.</div></div></div>
+      <div class="proc-card"><div class="proc-num">06</div><div class="proc-body"><div class="proc-title">On-Time Delivery</div><div class="proc-desc">Disciplined planning, skilled crews, and proven workflows let us meet aggressive deadlines without compromising quality or safety.</div></div></div>
+    </div>
   </div>
 </section>
 
@@ -798,8 +968,8 @@ img{transition:opacity 0.4s ease}
 <section id="partners">
   <div class="partners-inner">
     <p class="sec-tag">Ecosystem</p>
-    <h2 class="sec-title">Business Partners & Clients</h2>
-    <p class="sec-desc">Authorised service partners of India's leading construction material brands, trusted by global corporations.</p>
+    <h2 class="sec-title">Business Partners</h2>
+    <p class="sec-desc">Authorised service partners of India's leading construction material brands.</p>
     <div class="partners-panel" id="partners-panel">
       <div class="psh"><div class="psh-icon"><i class="fas fa-handshake"></i></div><div><div class="psh-title">Authorised Service Partners</div><div class="psh-count">14 brand partnerships across materials, surfaces & systems</div></div></div>
       <div class="partners-grid">
@@ -847,8 +1017,16 @@ img{transition:opacity 0.4s ease}
         </div>
       </div>
     </div>
-    <div class="partners-panel" id="clients-panel">
-      <hr class="clients-section-divider">
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section id="clients">
+  <div class="partners-inner">
+    <p class="sec-tag">Trusted By</p>
+    <h2 class="sec-title">Our Clients</h2>
+    <p class="sec-desc">Global corporations across automotive, banking, hospitality and technology choose Dong Shan Construction.</p>
+    <div class="partners-panel">
       <div class="psh"><div class="psh-icon"><i class="fas fa-star"></i></div><div><div class="psh-title">Our Valued Clients</div><div class="psh-count">7 global corporations across automotive, banking, hospitality & technology</div></div></div>
       <div class="clients-grid">
         <div class="client-tile"><img class="client-logo-img" src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Samsung_wordmark.svg" alt="Samsung" onerror="this.style.display='none'"></div>
@@ -871,9 +1049,18 @@ img{transition:opacity 0.4s ease}
       <h2 class="sec-title">Awards & Recognition</h2>
     </div>
     <div class="awards-grid">
-      <div class="award-card"><div class="aw-icon">🥇</div><div class="aw-title">Safety Champion Award — 2020</div><div class="aw-desc">Awarded by Samsung Display, Noida (Samsung C&T Construction Division) for Safety First culture and accident prevention leadership on site.</div></div>
-      <div class="award-card"><div class="aw-icon">🏢</div><div class="aw-title">MSME Certified Enterprise</div><div class="aw-desc">Registered under UDYAM Registration Certificate (UDYAM-UP-28-0314021) by Ministry of Micro, Small and Medium Enterprises, Government of India.</div></div>
-      <div class="award-card"><div class="aw-icon">⭐</div><div class="aw-title">Trusted by Global Brands</div><div class="aw-desc">Preferred construction partner for Samsung, Hyundai, KIA, KB Kookmin Bank, and other global corporations operating in India.</div></div>
+      <div class="award-card">
+        <div class="aw-img-wrap"><img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80" alt="Safety on construction site"><div class="aw-icon">🥇</div></div>
+        <div class="aw-body"><div class="aw-title">Safety Champion Award — 2020</div><div class="aw-desc">Awarded by Samsung Display, Noida (Samsung C&T Construction Division) for Safety First culture and accident prevention leadership on site.</div></div>
+      </div>
+      <div class="award-card">
+        <div class="aw-img-wrap"><img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80" alt="Certificate documents"><div class="aw-icon">🏢</div></div>
+        <div class="aw-body"><div class="aw-title">MSME Certified Enterprise</div><div class="aw-desc">Registered under UDYAM Registration Certificate (UDYAM-UP-28-0314021) by Ministry of Micro, Small and Medium Enterprises, Government of India.</div></div>
+      </div>
+      <div class="award-card">
+        <div class="aw-img-wrap"><img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&q=80" alt="Business handshake"><div class="aw-icon">⭐</div></div>
+        <div class="aw-body"><div class="aw-title">Trusted by Global Brands</div><div class="aw-desc">Preferred construction partner for Samsung, Hyundai, KIA, KB Kookmin Bank, and other global corporations operating in India.</div></div>
+      </div>
     </div>
   </div>
 </section>
@@ -888,10 +1075,34 @@ img{transition:opacity 0.4s ease}
       <h2 class="sec-title">Our Goals</h2>
     </div>
     <div class="goals-grid">
-      <div class="goal-card"><span class="goal-icon">🏆</span><div class="goal-num">01</div><div class="goal-title">Quality & Long-Term Value</div><div class="goal-desc">Driven by innovation and excellence, our goal is to deliver quality-based services and create long-term value for our clients and customers.</div></div>
-      <div class="goal-card"><span class="goal-icon">💡</span><div class="goal-num">02</div><div class="goal-title">Continuous Innovation</div><div class="goal-desc">Our goals are to innovate continuously and deliver exceptional customer service to drive long-term success across every sector we serve.</div></div>
-      <div class="goal-card"><span class="goal-icon">🗺️</span><div class="goal-num">03</div><div class="goal-title">Pan-India Expansion</div><div class="goal-desc">Extending our proven capabilities from Noida and Pune to all major Indian cities — building partnerships with the world's most respected corporations.</div></div>
-      <div class="goal-card"><span class="goal-icon">🌱</span><div class="goal-num">04</div><div class="goal-title">Sustainable Construction</div><div class="goal-desc">Embedding sustainability into every project — from material selection and energy-efficient design to responsible waste management and HSE compliance.</div></div>
+      <div class="goal-card">
+        <div class="goal-img-wrap"><img src="https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=600&q=80" alt="Quality construction"><div class="goal-num">01</div><span class="goal-icon">🏆</span></div>
+        <div class="goal-body"><div class="goal-title">Quality & Long-Term Value</div><div class="goal-desc">Driven by innovation and excellence, our goal is to deliver quality-based services and create long-term value for our clients and customers.</div></div>
+      </div>
+      <div class="goal-card">
+        <div class="goal-img-wrap"><img src="https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=600&q=80" alt="Modern architectural design"><div class="goal-num">02</div><span class="goal-icon">💡</span></div>
+        <div class="goal-body"><div class="goal-title">Continuous Innovation</div><div class="goal-desc">Our goals are to innovate continuously and deliver exceptional customer service to drive long-term success across every sector we serve.</div></div>
+      </div>
+      <div class="goal-card">
+        <div class="goal-img-wrap goal-india-wrap">
+          <svg class="india-svg" viewBox="0 0 400 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="India map with project cities">
+            <path d="M 135 75 L 180 80 L 240 90 L 300 95 L 340 100 L 370 115 L 380 140 L 370 175 L 355 200 L 335 220 L 330 225 L 335 240 L 335 270 L 325 295 L 310 320 L 295 350 L 280 385 L 265 420 L 250 455 L 235 510 L 220 478 L 210 442 L 195 406 L 170 372 L 140 336 L 115 302 L 100 276 L 88 250 L 90 220 L 95 195 L 105 165 L 115 135 L 125 105 Z" fill="rgba(234,85,1,0.18)" stroke="#EA5501" stroke-width="2.5" stroke-linejoin="round"/>
+            <g><circle cx="220" cy="135" r="6" fill="#EA5501" stroke="#fff" stroke-width="2"/><circle cx="220" cy="135" r="6" fill="#EA5501" opacity="0.55"><animate attributeName="r" values="6;16;6" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.55;0;0.55" dur="2.2s" repeatCount="indefinite"/></circle></g>
+            <g><circle cx="150" cy="332" r="6" fill="#EA5501" stroke="#fff" stroke-width="2"/><circle cx="150" cy="332" r="6" fill="#EA5501" opacity="0.55"><animate attributeName="r" values="6;16;6" dur="2.2s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.55;0;0.55" dur="2.2s" begin="0.3s" repeatCount="indefinite"/></circle></g>
+            <g><circle cx="178" cy="350" r="6" fill="#EA5501" stroke="#fff" stroke-width="2"/><circle cx="178" cy="350" r="6" fill="#EA5501" opacity="0.55"><animate attributeName="r" values="6;16;6" dur="2.2s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.55;0;0.55" dur="2.2s" begin="0.6s" repeatCount="indefinite"/></circle></g>
+            <g><circle cx="218" cy="425" r="6" fill="#EA5501" stroke="#fff" stroke-width="2"/><circle cx="218" cy="425" r="6" fill="#EA5501" opacity="0.55"><animate attributeName="r" values="6;16;6" dur="2.2s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.55;0;0.55" dur="2.2s" begin="0.9s" repeatCount="indefinite"/></circle></g>
+            <g><circle cx="258" cy="415" r="6" fill="#EA5501" stroke="#fff" stroke-width="2"/><circle cx="258" cy="415" r="6" fill="#EA5501" opacity="0.55"><animate attributeName="r" values="6;16;6" dur="2.2s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.55;0;0.55" dur="2.2s" begin="1.2s" repeatCount="indefinite"/></circle></g>
+            <g><circle cx="328" cy="248" r="6" fill="#EA5501" stroke="#fff" stroke-width="2"/><circle cx="328" cy="248" r="6" fill="#EA5501" opacity="0.55"><animate attributeName="r" values="6;16;6" dur="2.2s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.55;0;0.55" dur="2.2s" begin="1.5s" repeatCount="indefinite"/></circle></g>
+            <g><circle cx="224" cy="358" r="6" fill="#EA5501" stroke="#fff" stroke-width="2"/><circle cx="224" cy="358" r="6" fill="#EA5501" opacity="0.55"><animate attributeName="r" values="6;16;6" dur="2.2s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.55;0;0.55" dur="2.2s" begin="1.8s" repeatCount="indefinite"/></circle></g>
+          </svg>
+          <div class="goal-num">03</div><span class="goal-icon">🗺️</span>
+        </div>
+        <div class="goal-body"><div class="goal-title">Pan-India Expansion</div><div class="goal-desc">Active across Noida, Mumbai, Pune, Bangalore, Chennai, Kolkata, and Hyderabad — partnering with the world's most respected corporations.</div></div>
+      </div>
+      <div class="goal-card">
+        <div class="goal-img-wrap"><img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=600&q=80" alt="Sustainable forest"><div class="goal-num">04</div><span class="goal-icon">🌱</span></div>
+        <div class="goal-body"><div class="goal-title">Sustainable Construction</div><div class="goal-desc">Embedding sustainability into every project — from material selection and energy-efficient design to responsible waste management and HSE compliance.</div></div>
+      </div>
     </div>
   </div>
 </section>
@@ -921,28 +1132,28 @@ img{transition:opacity 0.4s ease}
       <h2 class="sec-title">Let's Start Your Project</h2>
       <p class="contact-info-desc">Ready to transform your space? Reach out to our team and let's discuss how we can bring your vision to life with construction excellence and precision.</p>
       <div class="c-item"><div class="c-icon"><i class="fas fa-map-marker-alt"></i></div><div><div class="c-label">Registered Office</div><div class="c-value">H-53, Cabin 2, MA9, SQL Coworking P Ltd<br>Ground Floor, Sector 63, Noida — 201301<br>Uttar Pradesh, India</div></div></div>
-      <div class="c-item"><div class="c-icon"><i class="fas fa-phone-alt"></i></div><div><div class="c-label">Phone</div><div class="c-value">+91 98918 73754</div></div></div>
-      <div class="c-item"><div class="c-icon"><i class="fas fa-envelope"></i></div><div><div class="c-label">Email</div><div class="c-value"><a href="mailto:info@dongshan.in" style="color:inherit;text-decoration:none">info@dongshan.in</a></div></div></div>
-      <div class="c-item"><div class="c-icon"><i class="fas fa-globe"></i></div><div><div class="c-label">Website</div><div class="c-value">www.dongshan.in</div></div></div>
-      <div style="display:flex;gap:10px;margin-top:28px">
-        <a href="#" style="width:42px;height:42px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.1rem;text-decoration:none;transition:transform 0.2s" onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transform='scale(1)'"><i class="fab fa-whatsapp"></i></a>
-        <a href="#" style="width:42px;height:42px;background:#0A66C2;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1rem;text-decoration:none;transition:transform 0.2s" onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transform='scale(1)'"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#" style="width:42px;height:42px;background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fd5949 45%,#d6249f 60%,#285AEB 90%);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1rem;text-decoration:none;transition:transform 0.2s" onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transform='scale(1)'"><i class="fab fa-instagram"></i></a>
-        <a href="#" style="width:42px;height:42px;background:#1877F2;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1rem;text-decoration:none;transition:transform 0.2s" onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transform='scale(1)'"><i class="fab fa-facebook-f"></i></a>
+      <div class="c-pair">
+        <div class="c-item"><div class="c-icon"><i class="fas fa-phone-alt"></i></div><div><div class="c-label">Phone</div><div class="c-value">+91 98216 27768</div></div></div>
+        <div class="c-item"><div class="c-icon"><i class="fas fa-envelope"></i></div><div><div class="c-label">Email</div><div class="c-value"><a href="mailto:info@dongshan.in" style="color:inherit;text-decoration:none">info@dongshan.in</a></div></div></div>
       </div>
+      <div class="c-item"><div class="c-icon"><i class="fas fa-globe"></i></div><div><div class="c-label">Website</div><div class="c-value">www.dongshan.in</div></div></div>
     </div>
     <div>
-      <form class="cf" onsubmit="submitForm(event)">
+      <form class="cf" id="contactForm" onsubmit="submitForm(event)">
+        <input type="hidden" name="_subject" value="New enquiry from dongshan-construction.pages.dev">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
         <div class="cf-row">
-          <div class="cf-f"><label>Full Name</label><input type="text" placeholder="Your name" required/></div>
-          <div class="cf-f"><label>Phone Number</label><input type="tel" placeholder="+91 00000 00000"/></div>
+          <div class="cf-f"><label>Full Name</label><input type="text" name="Name" placeholder="Your name" required/></div>
+          <div class="cf-f"><label>Phone Number</label><input type="tel" name="Phone" placeholder="+91 00000 00000"/></div>
         </div>
-        <div class="cf-f"><label>Email Address</label><input type="email" placeholder="your@email.com" required/></div>
+        <div class="cf-f"><label>Email Address</label><input type="email" name="Email" placeholder="your@email.com" required/></div>
         <div class="cf-f">
           <label>Service Required</label>
-          <select><option value="">Select a service</option><option>Civil Construction</option><option>Interior Fit-Out</option><option>Clean Room Work</option><option>MEP Services</option><option>Modular Wall Systems</option><option>Turnkey Project</option><option>Job Application</option></select>
+          <select name="Service Required"><option value="">Select a service</option><option>Civil Construction</option><option>Interior Fit-Out</option><option>Clean Room Work</option><option>MEP Services</option><option>Modular Wall Systems</option><option>Turnkey Project</option><option>Job Application</option></select>
         </div>
-        <div class="cf-f"><label>Project / Message Details</label><textarea id="cfMsg" placeholder="Describe your project — location, scope, timeline, and any specific requirements..."></textarea></div>
+        <div class="cf-f"><label>Project / Message Details</label><textarea id="cfMsg" name="Message" placeholder="Describe your project — location, scope, timeline, and any specific requirements..."></textarea></div>
         <button type="submit" class="cf-submit" id="cfBtn" style="width:100%;text-align:center">Send Message &nbsp; →</button>
       </form>
     </div>
@@ -958,9 +1169,9 @@ img{transition:opacity 0.4s ease}
       <p class="fb-desc">Infrastructural solutions in Civil, Electrical, Mechanical, Modular Wall & Systems, Clean Room, and Interior Work. Established 2019, Noida, India.</p>
       <div class="social-row">
         <a class="soc" href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-        <a class="soc" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a class="soc" href="https://www.facebook.com/groups/1104539763522222/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
         <a class="soc" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        <a class="soc" href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a class="soc" href="https://wa.me/919821627768?text=Hi%20Dong%20Shan%20Construction%2C%20I'd%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
     <div class="fc">
@@ -987,7 +1198,8 @@ img{transition:opacity 0.4s ease}
       <h4>Connect</h4>
       <ul>
         <li><a href="#projects">Our Projects</a></li>
-        <li><a href="#partners">Partners & Clients</a></li>
+        <li><a href="#partners">Partners</a></li>
+        <li><a href="#clients">Clients</a></li>
         <li><a href="#hiring">Careers</a></li>
         <li><a href="#contact">Contact Us</a></li>
         <li><a href="http://www.dongshan.in">www.dongshan.in</a></li>
@@ -1009,6 +1221,63 @@ img{transition:opacity 0.4s ease}
 
 <script>
 function toggleMenu(){document.getElementById('mobileMenu').classList.toggle('open')}
+
+/* ── HERO VIDEO PLAYLIST + LABEL ── */
+(function(){
+  var v=document.querySelector('.hero-video-main[data-playlist]');
+  if(!v)return;
+  var list=v.dataset.playlist.split(',').map(function(s){return s.trim()}).filter(Boolean);
+  var labels=(v.dataset.labels||'').split(',').map(function(s){return s.trim()});
+  var labelEl=document.getElementById('heroLabel');
+  if(!list.length)return;
+  var i=0;
+  function setLabel(text){
+    if(!labelEl)return;
+    labelEl.classList.remove('show');
+    setTimeout(function(){
+      labelEl.textContent=text||'';
+      if(text)labelEl.classList.add('show');
+    },240);
+  }
+  function load(){
+    v.src=list[i];
+    setLabel(labels[i]);
+    v.load();
+    var p=v.play();
+    if(p&&p.catch)p.catch(function(){});
+  }
+  v.addEventListener('ended',function(){i=(i+1)%list.length;load()});
+  load();
+})();
+
+/* ── STATS COUNT-UP ── */
+(function(){
+  var section=document.getElementById('stats');
+  if(!section||!('IntersectionObserver' in window))return;
+  function countUp(el){
+    var target=parseInt(el.dataset.target,10);
+    var start=parseInt(el.dataset.start||'0',10);
+    var suffix=el.dataset.suffix||'';
+    var dur=1700,t0=performance.now();
+    function tick(now){
+      var p=Math.min((now-t0)/dur,1);
+      var eased=1-Math.pow(1-p,3);
+      el.textContent=Math.round(start+(target-start)*eased)+suffix;
+      if(p<1)requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        section.classList.add('stats-revealed');
+        section.querySelectorAll('.stats-num').forEach(countUp);
+        io.disconnect();
+      }
+    });
+  },{threshold:0.3});
+  io.observe(section);
+})();
 
 /* ── LANGUAGE SWITCHER ── */
 var KO=[
@@ -1292,11 +1561,32 @@ function goApply(role){
 })();
 function submitForm(e){
   e.preventDefault();
+  var form=e.target;
   var btn=document.getElementById('cfBtn');
-  btn.textContent='✓ Message Sent! We will contact you soon.';
-  btn.style.background='#166534';
+  var origText=btn.textContent;
   btn.disabled=true;
-  setTimeout(function(){btn.textContent='Send Message  →';btn.style.background='';btn.disabled=false;e.target.reset();},4000);
+  btn.textContent='Sending…';
+  btn.style.background='';
+  var data=new FormData(form);
+  fetch('https://formsubmit.co/ajax/info@dongshan.in',{
+    method:'POST',
+    headers:{'Accept':'application/json'},
+    body:data
+  }).then(function(r){return r.json()}).then(function(res){
+    if(res&&(res.success==='true'||res.success===true)){
+      btn.textContent='✓ Message Sent! We will contact you soon.';
+      btn.style.background='#166534';
+      form.reset();
+      setTimeout(function(){btn.textContent=origText;btn.style.background='';btn.disabled=false;},5000);
+    }else{
+      throw new Error(res&&res.message||'Submission failed');
+    }
+  }).catch(function(err){
+    btn.textContent='✕ Failed — please email info@dongshan.in';
+    btn.style.background='#b91c1c';
+    setTimeout(function(){btn.textContent=origText;btn.style.background='';btn.disabled=false;},6000);
+    console.error('Form submit error',err);
+  });
 }
 window.addEventListener('scroll',function(){
   document.getElementById('mainNav').style.boxShadow=window.scrollY>10?'0 2px 20px rgba(0,0,0,0.1)':'none';
