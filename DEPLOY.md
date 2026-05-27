@@ -121,22 +121,30 @@ the data is stored in Cloudflare KV and updates instantly.
 Changes go live immediately. The public site reads jobs from `/api/jobs` on
 every page load, so a visitor refreshing `dongshan.in` will see the new state.
 
-### Change the default password
+### Change the admin password
 
 The default `Dongshan@2024` is in `functions/api/auth.js` as a fallback only.
-To override it, set a new value in the `JOBS_STORE` KV namespace:
+To override it, set a new value in the production `JOBS_STORE` KV namespace.
+
+**Important:** Run these from the project directory and always include `--remote`.
+Without `--remote`, wrangler writes to a local sandbox and the live site is
+unaffected.
 
 ```bash
-npx wrangler kv key put --binding=JOBS_STORE admin_password "your-new-password-here"
+cd /Users/shivanshrai/Downloads/Dongshan
+
+npx wrangler kv key put --binding=JOBS_STORE --remote admin_password "your-new-password-here"
 ```
 
-To check what password is currently set:
+Verify it saved:
 
 ```bash
-npx wrangler kv key get --binding=JOBS_STORE admin_password
+npx wrangler kv key get --binding=JOBS_STORE --remote admin_password
 ```
 
 If nothing is returned, no override exists and the code is using `Dongshan@2024`.
+After setting a new password, test it by logging into
+https://www.dongshan.in/hiring-admin.html.
 
 ### How the hiring system works (technical)
 
