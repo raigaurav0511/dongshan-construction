@@ -97,3 +97,55 @@ and not dependent on Cloudflare's UI changes.
 
 After major SEO changes, optionally request re-indexing at
 https://search.google.com/search-console (URL Inspection → Request Indexing).
+
+---
+
+## Managing job postings (hiring admin)
+
+Job listings shown on the public site are managed through a password-protected
+admin page. **No code change or deploy is needed** to add, edit, or remove jobs —
+the data is stored in Cloudflare KV and updates instantly.
+
+**URL:** https://www.dongshan.in/hiring-admin.html
+**Default password:** `Dongshan@2024` (change this — see below)
+
+### What you can do
+
+| Action | How |
+|---|---|
+| Add new job | Click the orange **"Add New Job"** button → fill form → **Save** |
+| Edit a job | Click **"Edit"** on the job's row → modify fields → **Save** |
+| Disable temporarily | Click **"Toggle"** — job stays in admin but disappears from the public site |
+| Delete permanently | Click **"Delete"** — job is removed for good |
+
+Changes go live immediately. The public site reads jobs from `/api/jobs` on
+every page load, so a visitor refreshing `dongshan.in` will see the new state.
+
+### Change the default password
+
+The default `Dongshan@2024` is in `functions/api/auth.js` as a fallback only.
+To override it, set a new value in the `JOBS_STORE` KV namespace:
+
+```bash
+npx wrangler kv key put --binding=JOBS_STORE admin_password "your-new-password-here"
+```
+
+To check what password is currently set:
+
+```bash
+npx wrangler kv key get --binding=JOBS_STORE admin_password
+```
+
+If nothing is returned, no override exists and the code is using `Dongshan@2024`.
+
+### How the hiring system works (technical)
+
+- `hiring-admin.html` — the admin UI (has `noindex, nofollow` so Google won't list it)
+- `functions/api/auth.js` — POST endpoint that validates the password and issues a 24-hour session token
+- `functions/api/jobs.js` — GET (public: returns active jobs) and POST (admin: saves full list)
+- `functions/api/jobs-admin.js` — GET endpoint that returns *all* jobs including inactive (admin only)
+- `JOBS_STORE` — Cloudflare KV namespace bound in `wrangler.toml`, stores `jobs`, `admin_password`, and `admin_session`
+
+The `JOBS_STORE` KV binding is configured in [`wrangler.toml`](wrangler.toml) and
+also mirrored in the Cloudflare Pages dashboard. If you ever recreate the Pages
+project, you must also re-bind this KV namespace there.
